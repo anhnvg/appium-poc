@@ -1,2 +1,2 @@
 # appium-poc
-appium for all apps
+appium for all apps using webdriverio
