@@ -1,2 +1,2 @@
 # appium-poc
-appium for all apps commit
+appium for all apps
