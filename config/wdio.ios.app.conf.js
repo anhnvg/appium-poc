@@ -14,7 +14,8 @@ config.capabilities = [
         'appium:app': path.join(process.cwd(), 'apps/homegate/iOS/builds/homegate.ch.app.zip'),
         'appium:noReset': true,
         'appium:newCommandTimeout': 600,
-        'appium:simulatorStartupTimeout': 600000
+        'appium:simulatorStartupTimeout': 600000,
+        'appium:isHeadless': true
     },
 ];
 
