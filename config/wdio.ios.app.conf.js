@@ -13,7 +13,7 @@ config.capabilities = [
         'appium:automationName': 'XCUITest',
         'appium:app': path.join(process.cwd(), 'apps/homegate/iOS/builds/homegate.ch.app.zip'),
         'appium:noReset': true,
-        'appium:newCommandTimeout': 240,
+        'appium:newCommandTimeout': 600,
     },
 ];
 
