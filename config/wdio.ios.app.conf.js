@@ -8,7 +8,7 @@ config.specs = [
 config.capabilities = [
     {
         'platformName': 'iOS',
-        'appium:platformVersion': '15.0',
+        'appium:platformVersion': '15.5',
         'appium:deviceName': 'iPhone 12',
         'appium:automationName': 'XCUITest',
         'appium:app': path.join(process.cwd(), 'apps/homegate/iOS/builds/homegate.ch.app.zip'),
