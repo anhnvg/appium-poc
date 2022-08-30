@@ -1,5 +1,5 @@
 const path = require('path');
-const { config } = require('./wdio.shared.conf');
+const {config} = require('./wdio.shared.conf');
 
 config.specs = [
     './test/specs/**/*.js',
@@ -14,6 +14,7 @@ config.capabilities = [
         'appium:app': path.join(process.cwd(), 'apps/homegate/iOS/builds/homegate.ch.app.zip'),
         'appium:noReset': true,
         'appium:newCommandTimeout': 600,
+        'appium:simulatorStartupTimeout': 600000
     },
 ];
 
