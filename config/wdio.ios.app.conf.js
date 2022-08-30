@@ -11,7 +11,7 @@ config.capabilities = [
         'appium:platformVersion': '15.5',
         'appium:deviceName': 'iPhone 12',
         'appium:automationName': 'XCUITest',
-        'appium:app': path.join(process.cwd(), './apps/homegate/iOS/builds/homegate.ch.app.zip'),
+        'appium:app': path.join(process.cwd(), 'apps/homegate/iOS/builds/homegate.ch.app.zip'),
         'appium:noReset': true,
         'appium:newCommandTimeout': 240,
     },
