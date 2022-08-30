@@ -18,7 +18,8 @@ exports.config = {
                 args: {
                     relaxedSecurity: true,
                     address: 'localhost',
-                    port: 4723
+                    port: 4723,
+                    basePath:'/wd/hub'
                 },
                 command: 'appium',
             },
