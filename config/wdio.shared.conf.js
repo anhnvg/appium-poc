@@ -9,7 +9,7 @@ exports.config = {
         timeout: 60000
     },
     logLevel: 'debug',
-    connectionRetryTimeout:180000,
+    connectionRetryTimeout:600000,
     connectionRetryCount: 5,
     services: [
         [
