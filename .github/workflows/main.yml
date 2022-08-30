@@ -15,7 +15,12 @@ jobs:
       - name: specify Xcode Version
         run: sudo xcode-select -s /Applications/Xcode_13.4.1.app/Contents/Developer
 
-      - name: install dependencies
+      - name: install appium global
         run: |
-          npm install
-          npm run ios.homegate
+          npm install -g appium@1.22.3
+          appium -v
+
+      - name: install dependencies
+        run: npm install
+      - name: run test
+        run: npm run ios.homegate
