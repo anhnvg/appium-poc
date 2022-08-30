@@ -15,12 +15,21 @@ jobs:
       - name: specify Xcode Version
         run: sudo xcode-select -s /Applications/Xcode_13.4.1.app/Contents/Developer
 
+      - name: cache node_modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - name: install appium global
         run: |
           npm install -g appium@1.22.3
           appium -v
 
       - name: install dependencies
-        run: npm install
+        run: npm ci
+
       - name: run test
         run: npm run ios.homegate
