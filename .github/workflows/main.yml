@@ -23,14 +23,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: install appium global
-        run: |
-          npm install -g appium@1.22.3
-          appium -v
-          which appium
-          npm install -g appium-doctor
-          appium-doctor --ios
-
       - name: install dependencies
         run: npm ci
 
