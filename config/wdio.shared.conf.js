@@ -21,7 +21,7 @@ exports.config = {
                     port: 4723,
                     basePath:'/wd/hub'
                 },
-                logPath: '../test/logs',
+                logPath: './test/logs',
                 command: 'appium',
             },
         ],
