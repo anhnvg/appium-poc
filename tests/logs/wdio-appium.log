@@ -1,0 +1,245 @@
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - xcuitest@4.12.1 (automationName 'XCUITest')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"iOS","appium:platformVersion":"15.5","appium:deviceName":"iPhone 12","appium:automationName":"XCUITest","appium:app":"/Users/nv.anhmai/Documents/Projects/appium-poc/apps/homegate/iOS/builds/homegate.ch.app.zip","appium:noReset":true,"appium:newCommandTimeout":600,"appium:simulatorStartupTimeout":600000,"appium:isHeadless":false},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"iOS","appium:platformVersion":"15.5","appium:deviceName":"iPhone 12","appium:automationName":"XCUITest","appium:app":"/Users/nv.anhmai/Documents/Projects/appium-poc/apps/homegate/iOS/builds/homegate.ch.app.zip","appium:noReset":true,"appium:newCommandTimeout":600,"appium:simulatorStartupTimeout":600000,"appium:isHeadless":false}}[39m
+[debug] [35m[AppiumDriver@b637][39m Calling AppiumDriver.createSession() with args: [{"platformName":"iOS","appium:platformVersion":"15.5","appium:deviceName":"iPhone 12","appium:automationName":"XCUITest","appium:app":"/Users/nv.anhmai/Documents/Projects/appium-poc/apps/homegate/iOS/builds/homegate.ch.app.zip","appium:noReset":true,"appium:newCommandTimeout":600,"appium:simulatorStartupTimeout":600000,"appium:isHeadless":false},null,{"alwaysMatch":{"platformName":"iOS","appium:platformVersion":"15.5","appium:deviceName":"iPhone 12","appium:automationName":"XCUITest","appium:app":"/Users/nv.anhmai/Documents/Projects/appium-poc/apps/homegate/iOS/builds/homegate.ch.app.zip","appium:noReset":true,"appium:newCommandTimeout":600,"appium:simulatorStartupTimeout":600000,"appium:isHeadless":false},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@b637][39m Event 'newSessionRequested' logged at 1667094246770 (08:44:06 GMT+0700 (Indochina Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'iOS'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/nv.anhmai/Documents/Projects/appium-poc/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/nv.anhmai/Documents/Projects/appium-poc/node_modules/appium-xcuitest-driver
+[35m[AppiumDriver@b637][39m Appium v2.0.0-beta.46 creating new XCUITestDriver (v4.12.1) session
+[35m[AppiumDriver@b637][39m Checking BaseDriver versions for Appium and XCUITestDriver
+[35m[AppiumDriver@b637][39m Appium's BaseDriver version is 8.7.3
+[35m[AppiumDriver@b637][39m XCUITestDriver's BaseDriver version is 8.7.3
+[35m[AppiumDriver@b637][39m Applying relaxed security to 'XCUITestDriver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[XCUITestDriver@f4f6][39m Creating session with W3C capabilities: {
+[debug] [35m[XCUITestDriver@f4f6][39m   "alwaysMatch": {
+[debug] [35m[XCUITestDriver@f4f6][39m     "platformName": "iOS",
+[debug] [35m[XCUITestDriver@f4f6][39m     "appium:platformVersion": "15.5",
+[debug] [35m[XCUITestDriver@f4f6][39m     "appium:deviceName": "iPhone 12",
+[debug] [35m[XCUITestDriver@f4f6][39m     "appium:automationName": "XCUITest",
+[debug] [35m[XCUITestDriver@f4f6][39m     "appium:app": "/Users/nv.anhmai/Documents/Projects/appium-poc/apps/homegate/iOS/builds/homegate.ch.app.zip",
+[debug] [35m[XCUITestDriver@f4f6][39m     "appium:noReset": true,
+[debug] [35m[XCUITestDriver@f4f6][39m     "appium:newCommandTimeout": 600,
+[debug] [35m[XCUITestDriver@f4f6][39m     "appium:simulatorStartupTimeout": 600000,
+[debug] [35m[XCUITestDriver@f4f6][39m     "appium:isHeadless": false
+[debug] [35m[XCUITestDriver@f4f6][39m   },
+[debug] [35m[XCUITestDriver@f4f6][39m   "firstMatch": [
+[debug] [35m[XCUITestDriver@f4f6][39m     {}
+[debug] [35m[XCUITestDriver@f4f6][39m   ]
+[debug] [35m[XCUITestDriver@f4f6][39m }
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Session created with session id: ca78c0f3-0963-4d10-85ee-fa50c141a8b1
+[debug] [35m[XCUITest][39m Current user: 'nv.anhmai'
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m iOS SDK Version set to '16.0'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 14.0.1 with udid '5114B6EE-8E7F-487A-A3B8-5EF153B93EB5'
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Determining device to run tests on: udid: '5114B6EE-8E7F-487A-A3B8-5EF153B93EB5', real device: false
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Event 'xcodeDetailsRetrieved' logged at 1667094246967 (08:44:06 GMT+0700 (Indochina Time))
+[35m[BaseDriver][39m Using local app '/Users/nv.anhmai/Documents/Projects/appium-poc/apps/homegate/iOS/builds/homegate.ch.app.zip'
+[debug] [35m[Support][39m Found 'unzip' at '/usr/bin/unzip'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Found 1 bundle in 'homegate.ch.app.zip': homegate.ch.app
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m 'homegate.ch.app' is the resulting application bundle selected from '/Users/nv.anhmai/Documents/Projects/appium-poc/apps/homegate/iOS/builds/homegate.ch.app.zip'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Event 'appConfigured' logged at 1667094247906 (08:44:07 GMT+0700 (Indochina Time))
+[debug] [35m[XCUITest][39m Checking whether app '/var/folders/8b/jfbzgg413639nzmvyhyg_43m0000gn/T/2022930-75543-n5smjw.eymd/homegate.ch.app' is actually present on file system
+[debug] [35m[XCUITest][39m App is present
+[debug] [35m[XCUITest][39m Getting bundle ID from app '/var/folders/8b/jfbzgg413639nzmvyhyg_43m0000gn/T/2022930-75543-n5smjw.eymd/homegate.ch.app': 'ch.homegate.Homegate'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Event 'resetStarted' logged at 1667094247907 (08:44:07 GMT+0700 (Indochina Time))
+[debug] [35m[XCUITest][39m Reset: noReset is on. Leaving simulator as is
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Event 'resetComplete' logged at 1667094247907 (08:44:07 GMT+0700 (Indochina Time))
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Using WDA path: '/Users/nv.anhmai/Documents/Projects/appium-poc/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Using WDA agent: '/Users/nv.anhmai/Documents/Projects/appium-poc/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [35m[IOSSimulatorLog][39m Starting log capture for iOS Simulator with udid '5114B6EE-8E7F-487A-A3B8-5EF153B93EB5' using simctl
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Event 'logCaptureStarted' logged at 1667094248143 (08:44:08 GMT+0700 (Indochina Time))
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Setting up simulator
+[debug] [35m[XCUITest][39m No reason to set locale
+[debug] [35m[XCUITest][39m No iOS / app preferences to set
+[debug] [35m[XCUITest][39m Setting did not need to be updated
+[debug] [35m[iOSSim][39m Setting preferences of 5114B6EE-8E7F-487A-A3B8-5EF153B93EB5 Simulator to {"ConnectHardwareKeyboard":false}
+[debug] [35m[iOSSim][39m Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+[debug] [35m[iOSSim][39m Updated 5114B6EE-8E7F-487A-A3B8-5EF153B93EB5 Simulator preferences at '/Users/nv.anhmai/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"5114B6EE-8E7F-487A-A3B8-5EF153B93EB5":{"ConnectHardwareKeyboard":false,"SimulatorExternalDisplay":2114,"ChromeTint":"","SimulatorWindowGeometry":{"81846C44-CE08-49B1-8912-4E687F6771ED":{"WindowCenter":"{1386, 604}","WindowScale":1},"27EE1336-927E-4A22-B71F-EB8AE12D5BDC":{"WindowCenter":"{1386, 604}","WindowScale":1}},"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0}}}
+[debug] [35m[iOSSim][39m Got Simulator UI client PID: 63048
+[35m[iOSSim][39m Both Simulator with UDID '5114B6EE-8E7F-487A-A3B8-5EF153B93EB5' and the UI client are currently running
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Event 'simStarted' logged at 1667094248472 (08:44:08 GMT+0700 (Indochina Time))
+[debug] [35m[XCUITest][39m Verifying application platform
+[debug] [35m[XCUITest][39m CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+[debug] [35m[XCUITest][39m App 'ch.homegate.Homegate' is already installed. No need to reinstall.
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Event 'appInstalled' logged at 1667094248572 (08:44:08 GMT+0700 (Indochina Time))
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[35m[DevCon Factory][39m Requesting connection for device 5114B6EE-8E7F-487A-A3B8-5EF153B93EB5 on local port 8100
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[35m[DevCon Factory][39m Successfully requested the connection for 5114B6EE-8E7F-487A-A3B8-5EF153B93EB5:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m WDA is not listening at 'http://127.0.0.1:8100/'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m WDA is currently not running. There is nothing to cache
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Trying to start WebDriverAgent 2 times with 10000ms interval
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Event 'wdaStartAttempted' logged at 1667094248621 (08:44:08 GMT+0700 (Indochina Time))
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Launching WebDriverAgent on the device
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m WebDriverAgent sources have been upgraded (1667088608614 < 1667094175198)
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Stored the recent WebDriverAgent upgrade timestamp 1667094175198 at '/Users/nv.anhmai/.appium/webdriveragent/upgrade.time'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Cleaning the project scheme 'WebDriverAgentLib' to make sure there are no leftovers from previous installs
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Cleaning the project scheme 'WebDriverAgentRunner' to make sure there are no leftovers from previous installs
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Parsed BUILD_DIR configuration value: '/Users/nv.anhmai/Library/Developer/Xcode/DerivedData/WebDriverAgent-cppsxemagahfezbvcmwyqpyjauca/Build/Products'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Got derived data root: '/Users/nv.anhmai/Library/Developer/Xcode/DerivedData/WebDriverAgent-cppsxemagahfezbvcmwyqpyjauca'
+[debug] [35m[WebDriverAgent][39m Killing running processes 'xcodebuild.*5114B6EE-8E7F-487A-A3B8-5EF153B93EB5, 5114B6EE-8E7F-487A-A3B8-5EF153B93EB5.*XCTRunner, xctest.*5114B6EE-8E7F-487A-A3B8-5EF153B93EB5' for the device 5114B6EE-8E7F-487A-A3B8-5EF153B93EB5...
+[debug] [35m[WebDriverAgent][39m 'pgrep -if xcodebuild.*5114B6EE-8E7F-487A-A3B8-5EF153B93EB5' didn't detect any matching processes. Return code: 1
+[debug] [35m[WebDriverAgent][39m 'pgrep -if 5114B6EE-8E7F-487A-A3B8-5EF153B93EB5.*XCTRunner' didn't detect any matching processes. Return code: 1
+[debug] [35m[WebDriverAgent][39m 'pgrep -if xctest.*5114B6EE-8E7F-487A-A3B8-5EF153B93EB5' didn't detect any matching processes. Return code: 1
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Users/nv.anhmai/Documents/Projects/appium-poc/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -derivedDataPath /Users/nv.anhmai/Library/Developer/Xcode/DerivedData/WebDriverAgent-cppsxemagahfezbvcmwyqpyjauca -destination id=5114B6EE-8E7F-487A-A3B8-5EF153B93EB5 IPHONEOS_DEPLOYMENT_TARGET=15.5 GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/Users/nv.anhmai/Documents/Projects/appium-poc/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Waiting up to 60000ms for WebDriverAgent to start
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m connect ECONNREFUSED 127.0.0.1:8100
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.0","version":"15.5"},"ios":{"simulatorVersion":"15.5","ip":"192.168.1.7"},"ready":true,"build":{"upgradedAt":"1667094175198","time":"Oct 30 2022 08:44:14","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m WebDriverAgent information:
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m {
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m   "message": "WebDriverAgent is ready to accept commands",
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m   "state": "success",
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m   "os": {
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m     "testmanagerdVersion": 28,
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m     "name": "iOS",
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m     "sdkVersion": "16.0",
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m     "version": "15.5"
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m   },
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m   "ios": {
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m     "simulatorVersion": "15.5",
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m     "ip": "192.168.1.7"
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m   },
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m   "ready": true,
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m   "build": {
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m     "upgradedAt": "1667094175198",
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m     "time": "Oct 30 2022 08:44:14",
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m     "productBundleIdentifier": "com.facebook.WebDriverAgentRunner"
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m   }
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m }
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m WebDriverAgent successfully started after 28430ms
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Event 'wdaSessionAttempted' logged at 1667094278825 (08:44:38 GMT+0700 (Indochina Time))
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Sending createSession command to WDA
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/session' to command name 'createSession'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"ch.homegate.Homegate","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":false,"forceAppLaunch":false,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Got response with status 200: {"value":{"sessionId":"138196D2-C75E-4B72-B19F-0F5DE8EF78E9","capabilities":{"device":"iphone","browserName":"Homegate","sdkVersion":"15.5","CFBundleIdentifier":"ch.homegate.Homegate"}},"sessionId":"138196D2-C75E-4B72-B19F-0F5DE8EF78E9"}
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Determined the downstream protocol as 'W3C'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Event 'wdaSessionStarted' logged at 1667094288828 (08:44:48 GMT+0700 (Indochina Time))
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Event 'wdaStarted' logged at 1667094288829 (08:44:48 GMT+0700 (Indochina Time))
+[35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Event 'orientationSet' logged at 1667094288829 (08:44:48 GMT+0700 (Indochina Time))
+[debug] [35m[BaseDriver][39m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+[debug] [35m[BaseDriver][39m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+[35m[AppiumDriver@b637][39m New XCUITestDriver session created successfully, session ca78c0f3-0963-4d10-85ee-fa50c141a8b1 added to master session list
+[debug] [35m[AppiumDriver@b637][39m Event 'newSessionStarted' logged at 1667094288835 (08:44:48 GMT+0700 (Indochina Time))
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Cached the protocol value 'W3C' for the new session ca78c0f3-0963-4d10-85ee-fa50c141a8b1
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"iOS","platformVersion":"15.5","deviceName":"iPhone 12","automationName":"XCUITest","app":"/Users/nv.anhmai/Documents/Projects/appium-poc/apps/homegate/iOS/builds/homegate.ch.app.zip","noReset":true,"newCommandTimeout":600,"simulatorStartupTimeout":600000,"isHeadless":false,"udid":"5114B6EE-8E7F-487A-A3B8-5EF153B93EB5"}}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m42071 ms - 611[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/ca78c0f3-0963-4d10-85ee-fa50c141a8b1[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Calling AppiumDriver.deleteSession() with args: ["ca78c0f3-0963-4d10-85ee-fa50c141a8b1"]
+[debug] [35m[AppiumDriver@b637][39m Event 'quitSessionRequested' logged at 1667094293895 (08:44:53 GMT+0700 (Indochina Time))
+[35m[AppiumDriver@b637][39m Removing session ca78c0f3-0963-4d10-85ee-fa50c141a8b1 from our master session list
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Matched '/session/ca78c0f3-0963-4d10-85ee-fa50c141a8b1' to command name 'deleteSession'
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Proxying [DELETE /session/ca78c0f3-0963-4d10-85ee-fa50c141a8b1] to [DELETE http://127.0.0.1:8100/session/138196D2-C75E-4B72-B19F-0F5DE8EF78E9] with no body
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Got response with status 200: {"value":null,"sessionId":null}
+[35m[DevCon Factory][39m Releasing connections for 5114B6EE-8E7F-487A-A3B8-5EF153B93EB5 device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["5114B6EE-8E7F-487A-A3B8-5EF153B93EB5:8100"]
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[debug] [35m[XCUITestDriver@f4f6 (ca78c0f3)][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [35m[IOSSimulatorLog][39m Stopping iOS log capture
+[debug] [35m[AppiumDriver@b637][39m Event 'quitSessionFinished' logged at 1667094293918 (08:44:53 GMT+0700 (Indochina Time))
+[debug] [35m[AppiumDriver@b637][39m Received response: null
+[debug] [35m[AppiumDriver@b637][39m But deleting session, so not returning
+[debug] [35m[AppiumDriver@b637][39m Responding to client with driver.deleteSession() result: null
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/ca78c0f3-0963-4d10-85ee-fa50c141a8b1 [39m[32m200[39m [90m27 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[debug] [35m[AppiumDriver@b637][39m There are no active sessions for cleanup
+[35m[HTTP][39m Waiting until the server is closed
+[35m[HTTP][39m Received server close event
+[debug] [35m[BaseDriver][39m Performing cleanup of 1 cached application
