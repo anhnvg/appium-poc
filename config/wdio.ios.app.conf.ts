@@ -1,8 +1,8 @@
-const path = require('path');
-const {config} = require('./wdio.shared.conf');
+import {join} from 'path';
+import config from './wdio.shared.local.appium.conf';
 
 config.specs = [
-    './test/specs/**/*.js',
+    './tests/specs/*.spec.ts'
 ];
 
 config.capabilities = [
@@ -11,11 +11,11 @@ config.capabilities = [
         'appium:platformVersion': '15.5',
         'appium:deviceName': 'iPhone 12',
         'appium:automationName': 'XCUITest',
-        'appium:app': path.join(process.cwd(), 'apps/homegate/iOS/builds/homegate.ch.app.zip'),
+        'appium:app': join(process.cwd(), 'apps/homegate/iOS/builds/homegate.ch.app.zip'),
         'appium:noReset': true,
         'appium:newCommandTimeout': 600,
         'appium:simulatorStartupTimeout': 600000,
-        'appium:isHeadless': true
+        'appium:isHeadless': false
     },
 ];
 
