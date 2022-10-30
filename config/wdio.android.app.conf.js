@@ -2,7 +2,7 @@ const path = require('path');
 const { config } = require('./wdio.shared.conf');
 
 config.specs = [
-    './test/specs/**/*.js',
+    './tests/specs/**/*.js',
 ];
 
 config.capabilities = [
