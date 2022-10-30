@@ -5,11 +5,11 @@ exports.config = {
     // ==================
     // Specify Test Files
     // ==================
-    // Define which test specs should run. The pattern is relative to the directory
+    // Define which tests specs should run. The pattern is relative to the directory
     // from which `wdio` was called.
     //
     // The specs are defined as an array of spec files (optionally using wildcards
-    // that will be expanded). The test for each spec file will be run in a separate
+    // that will be expanded). The tests for each spec file will be run in a separate
     // worker process. In order to have a group of spec files run in the same worker
     // process simply enclose them in an array within the specs array.
     //
@@ -18,7 +18,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        './tests/specs/**/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -29,7 +29,7 @@ exports.config = {
     // Capabilities
     // ============
     // Define your capabilities here. WebdriverIO can run multiple capabilities at the same
-    // time. Depending on the number of capabilities, WebdriverIO launches several test
+    // time. Depending on the number of capabilities, WebdriverIO launches several tests
     // sessions. Within your capabilities you can overwrite the spec and exclude options in
     // order to group specific specs to a specific capability.
     //
@@ -38,7 +38,7 @@ exports.config = {
     // set maxInstances to 1; wdio will spawn 3 processes. Therefore, if you have 10 spec
     // files and you set maxInstances to 10, all spec files will get tested at the same time
     // and 30 processes will get spawned. The property handles how many capabilities
-    // from the same test should run tests.
+    // from the same tests should run tests.
     //
     maxInstances: 10,
     //
@@ -101,8 +101,8 @@ exports.config = {
     //
     // Test runner services
     // Services take over a specific job you don't want to take care of. They enhance
-    // your test setup with almost no effort. Unlike plugins, they don't add new
-    // commands. Instead, they hook themselves up into the test process.
+    // your tests setup with almost no effort. Unlike plugins, they don't add new
+    // commands. Instead, they hook themselves up into the tests process.
     services: [
         ['appium', {
             arg: {
@@ -147,7 +147,7 @@ exports.config = {
     // =====
     // Hooks
     // =====
-    // WebdriverIO provides several hooks you can use to interfere with the test process in order to enhance
+    // WebdriverIO provides several hooks you can use to interfere with the tests process in order to enhance
     // it and to build services around it. You can either apply a single function or an array of
     // methods to it. If one of them returns with a promise, WebdriverIO will wait until that promise got
     // resolved to continue.
@@ -179,7 +179,7 @@ exports.config = {
     // onWorkerEnd: function (cid, exitCode, specs, retries) {
     // },
     /**
-     * Gets executed just before initialising the webdriver session and test framework. It allows you
+     * Gets executed just before initialising the webdriver session and tests framework. It allows you
      * to manipulate configurations depending on the capability or spec.
      * @param {Object} config wdio configuration object
      * @param {Array.<Object>} capabilities list of capabilities details
@@ -189,7 +189,7 @@ exports.config = {
     // beforeSession: function (config, capabilities, specs, cid) {
     // },
     /**
-     * Gets executed before test execution begins. At this point you can access to all global
+     * Gets executed before tests execution begins. At this point you can access to all global
      * variables like `browser`. It is the perfect place to define custom commands.
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs        List of spec file paths that are to be run
@@ -211,33 +211,33 @@ exports.config = {
     // beforeSuite: function (suite) {
     // },
     /**
-     * Function to be executed before a test (in Mocha/Jasmine) starts.
+     * Function to be executed before a tests (in Mocha/Jasmine) starts.
      */
-    // beforeTest: function (test, context) {
+    // beforeTest: function (tests, context) {
     // },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)
      */
-    // beforeHook: function (test, context) {
+    // beforeHook: function (tests, context) {
     // },
     /**
      * Hook that gets executed _after_ a hook within the suite starts (e.g. runs after calling
      * afterEach in Mocha)
      */
-    // afterHook: function (test, context, { error, result, duration, passed, retries }) {
+    // afterHook: function (tests, context, { error, result, duration, passed, retries }) {
     // },
     /**
-     * Function to be executed after a test (in Mocha/Jasmine only)
-     * @param {Object}  test             test object
-     * @param {Object}  context          scope object the test was executed with
-     * @param {Error}   result.error     error object in case the test fails, otherwise `undefined`
-     * @param {Any}     result.result    return object of test function
-     * @param {Number}  result.duration  duration of test
-     * @param {Boolean} result.passed    true if test has passed, otherwise false
+     * Function to be executed after a tests (in Mocha/Jasmine only)
+     * @param {Object}  tests             tests object
+     * @param {Object}  context          scope object the tests was executed with
+     * @param {Error}   result.error     error object in case the tests fails, otherwise `undefined`
+     * @param {Any}     result.result    return object of tests function
+     * @param {Number}  result.duration  duration of tests
+     * @param {Boolean} result.passed    true if tests has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
+    // afterTest: function(tests, context, { error, result, duration, passed, retries }) {
     // },
 
 
@@ -258,8 +258,8 @@ exports.config = {
     // },
     /**
      * Gets executed after all tests are done. You still have access to all global variables from
-     * the test.
-     * @param {Number} result 0 - test pass, 1 - test fail
+     * the tests.
+     * @param {Number} result 0 - tests pass, 1 - tests fail
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that ran
      */
@@ -275,11 +275,11 @@ exports.config = {
     // },
     /**
      * Gets executed after all workers got shut down and the process is about to exit. An error
-     * thrown in the onComplete hook will result in the test run failing.
+     * thrown in the onComplete hook will result in the tests run failing.
      * @param {Object} exitCode 0 - success, 1 - fail
      * @param {Object} config wdio configuration object
      * @param {Array.<Object>} capabilities list of capabilities details
-     * @param {<Object>} results object containing test results
+     * @param {<Object>} results object containing tests results
      */
     // onComplete: function(exitCode, config, capabilities, results) {
     // },
