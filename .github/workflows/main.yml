@@ -26,10 +26,10 @@ jobs:
       - name: install dependencies
         run: npm ci
 
-      - name: run test
+      - name: run tests
         run: npm run ios.homegate
 
       - uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: ./test/logs
+          path: ./tests/logs
