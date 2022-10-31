@@ -1,5 +1,10 @@
 # appium-poc
 Welcome to the hybrid UI Automation test. This is aimed to facililate the UI automation using Appium + TypeScript + WDIO framework
+This is the basic structure, the advance structure need time to engineering
+
+Things to added for the demo next Monday **Reports**
+
+
 
 ```
 ├─ .github
@@ -47,10 +52,16 @@ Things not added
 
 
 Team's questions:
-- What if we can't run on Firebase? Anh: We have logs and test report using Allure Report with video
+- What if we can't run on Firebase, can't have the Appelium? Anh: We have logs and test report using Allure Report with screenshots and video
 
 ***Appium logs***
 
 ***[Allure Reports](https://docs.qameta.io/allure-report/)***
+
+- How to make it easy to maintain?
+
+Using the cloud such as Github Hosted Runner (Mac-os runner for iOS), but have limitation only have Emu/Simu or AWS device farm (Real Device)
+
+If everyone does not want to rely on Typescript, prefer native, then I can use Kotlin + Appium
 
 <img width="984" alt="image" src="https://user-images.githubusercontent.com/101088921/198966629-58b5b36c-4afb-4860-a6cd-0c72cb2b7eef.png">
