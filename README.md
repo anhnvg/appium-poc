@@ -44,6 +44,8 @@ Welcome to the hybrid UI Automation test. This is aimed to facililate the UI aut
 
 Things not added
 - Parralel testing - to be added later using Appium Grid
+
+
 Team's questions:
 - What if we can't run on Firebase? Anh: We have logs and test report using Allure Report with video
 
