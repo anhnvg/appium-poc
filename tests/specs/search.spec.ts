@@ -12,11 +12,11 @@ describe('Test suites for search screen', () => {
     afterEach(async () => {
 
     })
-    xit('verify the welcome section', async () => {
+    it('verify the welcome section', async () => {
         await validator.expectedWelcomeText('Welcome!')
     })
 
-    it('tap search button',async ()=>{
+    xit('tap search button', async () => {
         await searchScreen.tapSearchButton()
         browser.pause(5000)
     })
