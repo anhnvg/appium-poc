@@ -40,6 +40,6 @@ Welcome to the hybrid UI Automation test. This is aimed to facililate the UI aut
 ├─ package.json
 └─ tsconfig.json
 ```
-### Road map
+### Basic Road map
 
 <img width="984" alt="image" src="https://user-images.githubusercontent.com/101088921/198966629-58b5b36c-4afb-4860-a6cd-0c72cb2b7eef.png">
