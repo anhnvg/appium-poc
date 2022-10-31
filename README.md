@@ -1,5 +1,5 @@
 # appium-poc
-appium for all apps using Webdriverio
+Welcome to the hybrid UI Automation test. This is aimed to facililate the UI automation using Appium + TypeScript + WDIO framework
 
 ```
 ├─ .github
