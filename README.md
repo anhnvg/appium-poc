@@ -54,7 +54,7 @@ Things not added
 Team's questions:
 - What if we can't run on Firebase, can't have the Appelium? Anh: We have logs and test report using Allure Report with screenshots and video
 
-***Appium logs***
+***[Appium logs](https://github.com/anhnvg/appium-poc/actions/runs/3341502801)***
 
 ***[Allure Reports](https://docs.qameta.io/allure-report/)***
 
