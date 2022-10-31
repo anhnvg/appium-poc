@@ -49,4 +49,8 @@ Things not added
 Team's questions:
 - What if we can't run on Firebase? Anh: We have logs and test report using Allure Report with video
 
+***Appium logs***
+
+***[Allure Reports](https://docs.qameta.io/allure-report/)***
+
 <img width="984" alt="image" src="https://user-images.githubusercontent.com/101088921/198966629-58b5b36c-4afb-4860-a6cd-0c72cb2b7eef.png">
